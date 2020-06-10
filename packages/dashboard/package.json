@@ -46,5 +46,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "prop-types": "^15.7.2",
+    "ra-data-json-server": "^3.6.0",
+    "react-admin": "^3.6.0"
   }
 }

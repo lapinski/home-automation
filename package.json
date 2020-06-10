@@ -1,0 +1,22 @@
+{
+  "name": "@lapinski/home-automation",
+  "version": "0.1.0",
+  "description": "A collection of home-automation related projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lapinski/home-automation.git"
+  },
+  "author": "Alex Lapinski <opensource@alexlapinski.name>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lapinski/home-automation/issues"
+  },
+  "homepage": "https://github.com/lapinski/home-automation#readme",
+  "devDependencies": {
+    "lerna": "^3.22.1"
+  }
+}

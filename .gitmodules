@@ -1,0 +1,3 @@
+[submodule "packages/SmartThingsPublic"]
+	path = packages/SmartThingsPublic
+	url = https://github.com/SmartThingsCommunity/SmartThingsPublic.git

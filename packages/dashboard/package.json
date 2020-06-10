@@ -2,30 +2,49 @@
   "name": "@lapinski/home-automation-dashboard",
   "version": "0.1.0",
   "description": "A dashboard for home automation things, rules and interactions.",
+  "author": "Alex Lapinski <opensource@alexlapinski.name>",
   "keywords": [
     "IoT",
     "smartthings",
-    "dashboard"
+    "dashboard",
+    "graph",
+    "ZigBee",
+    "ZWave"
   ],
-  "author": "Alex Lapinski <contact@alexlapinski.name>",
   "homepage": "https://github.com/lapinski/home-automation/tree/master/packages/dashboard#readme",
-  "license": "MIT",
-  "main": "lib/index.js",
-  "directories": {
-    "lib": "lib",
-    "test": "__tests__"
-  },
-  "files": [
-    "lib"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lapinski/home-automation.git"
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@types/jest": "^24.9.1",
+    "@types/node": "^12.12.47",
+    "@types/react": "^16.9.35",
+    "@types/react-dom": "^16.9.8",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1",
+    "typescript": "^3.7.5"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "bugs": {
-    "url": "https://github.com/lapinski/home-automation/issues"
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }

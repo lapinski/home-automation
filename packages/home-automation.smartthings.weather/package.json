@@ -1,3 +1,9 @@
 {
-    "name": "home-automation.smartthings.weather"
-}
+    "name": "@lapinski/home-automation-weather",
+    "version": "0.1.0",
+    "description": "A collection of home-automation related projects.",
+    "author": "Alex Lapinski <opensource@alexlapinski.name>",
+    "license": "MIT",
+    "devDependencies": { }
+  }
+  

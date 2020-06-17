@@ -24,7 +24,7 @@ export const PostList = (props: any) => (
 );
 
 
-const PostTitle = ({ record }: { record?: { title: string }}) => {
+export const PostTitle = ({ record }: { record?: { title: string }}) => {
     return <span>Post {record ? `"${record.title}"` : ''}</span>;
 };
 

@@ -15,6 +15,8 @@ import { ReferenceField } from 'react-admin';
         source: any;
     }
 
+    declare const crudGetList: any;
+
     declare const Resource: FunctionComponent<any>;
     declare const ListGuesser: FunctionComponent<any>;
     declare const EditGuesser: FunctionComponent<any>;

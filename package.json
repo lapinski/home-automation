@@ -20,7 +20,8 @@
     "@types/react-redux": "^7.1.9",
     "@types/react-router-dom": "^5.1.5",
     "@types/redux": "^3.6.0",
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "swagger-typescript-api": "^1.10.0"
   },
   "dependencies": {
     "react-redux": "^7.2.0",

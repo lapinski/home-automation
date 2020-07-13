@@ -3,7 +3,6 @@ import { useSelector } from 'react-redux';
 import { useMediaQuery } from '@material-ui/core';
 import { MenuItemLink, getResources } from 'react-admin';
 import DefaultIcon from '@material-ui/icons/ViewList';
-import LabelIcon from '@material-ui/icons/Label';
 
 const MyMenu = ({ onMenuClick, logout }: { onMenuClick: any, logout: any }) => {
     const isXSmall = useMediaQuery((theme: any) => theme.breakpoints.down('xs'));

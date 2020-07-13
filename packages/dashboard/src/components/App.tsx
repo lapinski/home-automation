@@ -6,6 +6,9 @@ import jsonServerProvider from 'ra-data-json-server';
 import { Route } from 'react-router-dom';
 import MyLayout from '../layout/MyLayout';
 import CustomRouteLayout from '../routes/customRouteLayout';
+import BubbleChartSharpIcon from '@material-ui/icons/BubbleChartSharp';
+import LabelIcon from '@material-ui/icons/Label';
+
 
 const dataProvider = jsonServerProvider('https://jsonplaceholder.typicode.com');
 

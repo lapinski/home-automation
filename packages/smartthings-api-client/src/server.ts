@@ -1,4 +1,15 @@
 import express from 'express';
+import hostile from 'hostile';
+
+const registerHost = (host: string): Promise<string> => new Promise((resolve, reject) => {
+    hostile.set('127.0.0.1', host, (err) => {
+        if (err) {
+            reject(err);
+        } else {
+            resolve(host);
+        }
+    });
+})
 
 const main = async () => {
     const app = express();
@@ -12,8 +23,13 @@ const main = async () => {
         });
     });
 
-    return app.listen(1234, 'localhost', () => {
-        console.log('Listening at http://localhost.alexlapinski.name:1234');
+    const host = 'localhost.alexlapinski.name';
+    const port = 1234;
+
+    await registerHost(host);
+
+    return app.listen(port, host, () => {
+        console.log(`Listening at http://${host}:${port}`);
     });
 };
 
